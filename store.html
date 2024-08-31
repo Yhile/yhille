@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+        .footer {
+            background-color: #e0dddd;
+            padding: 10px;
+            text-align: center;
+        }
+        .footer img {
+            width: 17px;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+        .gradient-text {
+        background: linear-gradient(135deg, #080cd6, #8e05b1);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+      * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+  display: flex;
+  width: 90%;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  background: linear-gradient(135deg,#0145ff, #ce06ce); /* Gradient background */
+  margin: 2rem auto;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+  transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.container:hover {
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+.container h1, .container p {
+  font-family: 'Arial', sans-serif; /* Better font choice */
+  color: #000000; /* Darker text color for better contrast */
+}
+
+.container h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.container p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+
+    .text {
+      margin-bottom: 2rem;
+      font-size: 1.5rem;
+      text-align: center;
+    }
+
+    .image {
+      width: 100%;
+      max-width: 600px;
+      height: auto;
+    }
+
+    @media (min-width: 768px) {
+      .container {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+
+      .text {
+        flex: 1;
+        margin-right: 2rem;
+        text-align: left;
+      }
+
+      .image {
+        flex: 1;
+        order: 2;
+      }
+    }
+    
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+        }
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+        .iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+    </style>
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">Yhile_</div>
+      <div class="nav-items">
+        <a href="index.html">Home</a><a href="about.html">About</a><a href="products.html">Products</a><a href="store.html">Shop</a>
+      </div>
+    </nav>
+    <div class="iframe-container">
+        <iframe src="https://yhile.github.io/yhilestoreback/" title="Example Iframe"></iframe>
+    </div>
+    <footer class="footer">
+        <a href="https://www.youtube.com/@Yhile_0" target="_blank">
+            <img src="youtube-logo-24.png" alt="YouTube">
+        </a>
+        <a href="https://discord.gg/jxSmAqSH" target="_blank">
+            <img src="discord-alt-logo-24.png" alt="Discord">
+        </a>
+    </footer>
+  
+  </body>
+  <footer class="footer">
+    <a href="https://www.youtube.com/@Yhile_0" target="_blank">
+        <img src="youtube-logo-24.png" alt="YouTube">
+    </a>
+    <a href="https://discord.gg/jxSmAqSH" target="_blank">
+        <img src="discord-alt-logo-24.png" alt="Discord">
+    </a>
+</footer>
+<footer class="footer">
+  <a href="https://discord.gg/jxSmAqSH" target="_blank">
+    <img src="image0__1_-removebg-preview.png" alt="Fry">
+</a>
+<p>Fry</p>
+ <p>Wandering Around...</p>
+</footer>
+
+</html>
